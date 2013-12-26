@@ -1,6 +1,63 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+
+	font: 10pt 'Lato', sans-serif;
+	background-color: hsl(0, 0%, 96%);
+	color: hsl(0, 0%, 16%);
+
+	overflow-x: hidden;
+
+}
+
+.wrap {
+	
+	width: 760px;
+
+	margin: auto;
+
+}
+
+.main {
+	margin-top: 40px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 14px;
+	background-color: hsl(0, 0%, 90%);
+
+	transition: height 1s ease-out;
+
+}
+
+.menu-wrap {
+
+	width: 100%;
+
+
+
+	position: fixed;
+	bottom: 0;
+
+	background-color: hsl(0, 0%, 90%);
+
+	border-bottom: 50px hsl(0, 0%, 16%) solid;
+	box-shadow: 0 0 7px hsla(0, 0%, 0%, .9)
+
+}
+
 .menu {
 
-	
+	width: 760px;
+
+	margin: auto;
+
 
 }
 
@@ -9,8 +66,46 @@
 	float: left;
 	clear: none;
 
-	width: 250px;
-
-	padding: 14px 0;
+	display: block;
 
 }
+
+.menu a {
+
+	height: 100%;
+	width: 100%;
+
+	/*font-weight: 300;*/
+
+	display: block;
+
+	padding: 11px 28px;
+
+	display: block;
+
+	text-align: center;
+	color: hsl(0, 0%, 100%);
+
+	text-shadow: 0 -1px 2px hsla(0, 0%, 0%, .7);
+
+	text-decoration: none;
+
+	transition: background-color .25s ease-out;
+
+}
+
+.menu a:hover {
+	
+	background-color: hsl(0, 0%, 50%);
+
+}
+
+
+
+
+.cf:before, 
+.cf:after { content:"";  display:table; }
+
+.cf:after { clear:both; }
+
+.cf { *zoom:1; }

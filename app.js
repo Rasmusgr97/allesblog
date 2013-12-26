@@ -4,8 +4,8 @@ requirejs.config({
 
 	paths: {
 
-		'jquery': 'jquery/2.0.3/jquery.min.js',
-		'jquery-color': 'jquery-color/2.1.2/jquery.color.min'
+		'jquery': 'jquery/2.0.3/jquery.min',
+		'jquery-color': 'jquery-color/2.1.2/jquery.color.min',
 		'prefixfree': 'prefixfree/1.0.7/prefixfree.min',
 		'modernizr': 'modernizr/2.7.1/modernizr.min'
 
