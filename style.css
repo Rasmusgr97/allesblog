@@ -8,7 +8,7 @@
 
 body {
 
-	font: 10pt 'Lato', sans-serif;
+	font: 10pt/1.3em 'Lato', sans-serif;
 	background-color: hsl(0, 0%, 96%);
 	color: hsl(0, 0%, 16%);
 
@@ -37,6 +37,7 @@ h1 {
 	display: block;
 	overflow: hidden;
 	padding: 14px;
+	text-align: justify;
 
 	transition: height 1s ease-out;
 
