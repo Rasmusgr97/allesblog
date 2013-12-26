@@ -55,9 +55,12 @@ p {
 
 .menu-overlay {
 
-	
+	width: 100%;
+	position: fixed;	
 	bottom: 0;
 	background-color: hsl(0, 0%, 96%);
+
+	padding-bottom: 50px;
 
 }
 
@@ -65,32 +68,28 @@ p {
 
 	width: 100%;
 
-
-
-	position: fixed;
-	padding-bottom: 50px;
+	box-shadow: 0 0 7px hsla(0, 0%, 0%, .7);
 
 
 	/*border-bottom: 60px hsl(0, 0%, 96%) solid;*/
-	box-shadow: 0 0 7px hsla(0, 0%, 0%, .7)
 
 }
 
 .menu {
 
-	width: 1000px;
+	width: 1000px; height: 38px;
+	margin: 0 auto;
 
-	margin: auto;
+	display: table;
+	table-layout: fixed;
 
 
 }
 
 .menu li {
-
-	float: left;
-	clear: none;
-
-	display: block;
+	
+	display: table-cell;
+	width: 100%;
 
 }
 
