@@ -17,12 +17,22 @@ body {
 }
 
 h1 {
-
+	
 	font-weight: 300;
 	margin-bottom: .3em;
 
 }
 
+p {
+	margin-bottom: 1em;
+}
+.inline-image {
+	width: 190px;
+	display: block;
+}
+.right {
+	margin-right: 10px;
+}
 .wrap {
 	
 	width: 760px;
@@ -43,6 +53,14 @@ h1 {
 
 }
 
+.menu-overlay {
+
+	
+	bottom: 0;
+	background-color: hsl(0, 0%, 96%);
+
+}
+
 .menu-wrap {
 
 	width: 100%;
@@ -50,9 +68,8 @@ h1 {
 
 
 	position: fixed;
-	bottom: 50px;
+	padding-bottom: 50px;
 
-	background-color: hsl(0, 0%, 96%);
 
 	/*border-bottom: 60px hsl(0, 0%, 96%) solid;*/
 	box-shadow: 0 0 7px hsla(0, 0%, 0%, .7)
